@@ -28,6 +28,6 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | graphs                 |        0 |                      1 |
 | dynamic_programming    |        0 |                      1 |
 | two_pointers           |        0 |                      1 |
-| sliding_window         |        0 |                      1 |
+| sliding_window         |        1 |                      1 |
 | recursion              |        0 |                      1 |
 | backtracking           |        0 |                      1 |
