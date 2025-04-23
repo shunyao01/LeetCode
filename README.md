@@ -2,20 +2,20 @@
 
 A structured way to tackle coding interview problems by topic. Track your practice, notes, and progress all in one place.
 
-
 ## Repository Structure
 
-- **arrays/**: Problems focusing on array operations and patterns.
-- **strings/**: String manipulation and parsing challenges.
-- **linked_lists/**: Linked list algorithms.
-- **trees/**: Tree traversal and tree-based problems.
-- **graphs/**: Graph traversal, connectivity, and pathfinding.
-- **dynamic_programming/**: Dynamic programming paradigms.
-- **two_pointers/**, **sliding_window/**: Pattern-specific directories.
-- **recursion/**, **backtracking/**: Recursive and backtracking puzzles.
-- **system_design/**: Resources for system design interviews.
-- **patterns/**: Notes on common algorithmic patterns.
-
+- arrays/               : Problems focusing on array operations and common patterns.
+- strings/              : Challenges involving string manipulation and parsing.
+- linked_lists/         : Algorithms and operations related to linked lists.
+- trees/                : Tree traversal, construction, and other tree-related problems.
+- graphs/               : Graph traversal, connectivity checks, and pathfinding algorithms.
+- dynamic_programming/  : Problems using dynamic programming techniques and memoization.
+- two_pointers/         : Problems that apply the two-pointer technique.
+- sliding_window/       : Problems based on the sliding window pattern.
+- recursion/            : Recursive approach-based problem solving.
+- backtracking/         : Backtracking algorithms, including puzzles and constraint satisfaction.
+- system_design/        : Notes and resources for system design interviews.
+- patterns/             : Documentation of common algorithmic patterns and approaches.
 
 ## Progress Tracking
 
