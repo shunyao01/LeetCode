@@ -21,7 +21,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 
 | Topic                  | # Solved | Confidence Level       |
 |------------------------|---------:|-----------------------:|
-| arrays                 |        1 |                      1 |
+| arrays                 |        2 |                      1 |
 | strings                |        0 |                      1 |
 | linked_lists           |        0 |                      1 |
 | trees                  |        0 |                      1 |
