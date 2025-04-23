@@ -62,3 +62,6 @@ poetry.lock
 
 # Ignore docker
 .dockerignore
+
+# Ignore notes
+git_skills.md
