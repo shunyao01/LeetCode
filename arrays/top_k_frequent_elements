@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         """
@@ -26,7 +28,7 @@ class Solution:
             count[n] = count.get(n, 0) + 1
         
         # TRICK: BUCKET SORT
-        # freq table[f] = [n], where len(freq_table) = len(nums), under frequency column, record all the nums with that freq
+        # freq table[f] = [n], f is frequency, n is element
         freq = [[] for _ in range(len(nums)+1)] 
         for (n, c) in count.items():
             freq[c-1].append(n)
