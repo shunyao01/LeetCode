@@ -32,9 +32,9 @@ class Graph:
                 visited.add(node)
                 res.append(node.value)
 
-            for neighbor in node.neighbors:
-                if neighbor not in visited:
-                    stack.append(neighbor)
+                for neighbor in node.neighbors:
+                    if neighbor not in visited:
+                        stack.append(neighbor)
 
         return res
 
