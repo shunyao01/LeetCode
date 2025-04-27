@@ -16,52 +16,27 @@ class Graph:
     def add_node(self, node):
         self.nodes.append(node)
 
-    def dfs_iter(self, node):
+    def bfs_iter(self, node):
         """
-        Stack for DFS, LIFO
+        Queue for BFS, FIFO
         Time Complexity: O(V+E)
-        Deque pop
+        Deque popleft
         """
         visited = set() # visit
         stack = deque([node]) # explore
         res = []
 
         while stack:
-            node = stack.pop()
+            node = stack.popleft()
             if node not in visited:
                 visited.add(node)
                 res.append(node.value)
 
-            for neighbor in reversed(node.neighbors):
+            for neighbor in node.neighbors:
                 if neighbor not in visited:
                     stack.append(neighbor)
 
         return res
-
-
-    def dfs_rec(self, node):
-        """
-        Perform DFS search
-        
-        Time complexity: O(V+E)
-        """
-        visited = set()
-        res = []
-        res = self.dfs_visit(node, visited, res)
-
-        return res
-
-    def dfs_visit(self, node, visited, res):
-        
-        if node not in visited:
-            visited.add(node)
-            res.append(node.value)
-
-            for neighbor in node.neighbors:
-                res = self.dfs_visit(neighbor, visited, res)
-
-        return res
-
 
 # Create nodes
 a = Node('A')
@@ -88,5 +63,4 @@ graph.add_node(e)
 graph.add_node(f)
 
 if __name__ == '__main__':
-    print(graph.dfs_iter(a))
-    print(graph.dfs_rec(a))
+    print(graph.bfs_iter(a))

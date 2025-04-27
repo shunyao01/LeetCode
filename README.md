@@ -25,7 +25,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | strings                |        1 |                      1 |
 | linked_lists           |        0 |                      1 |
 | trees                  |        0 |                      1 |
-| graphs                 |        0 |                      1 |
+| graphs                 |        2 |                      1 |
 | dynamic_programming    |        0 |                      1 |
 | two_pointers           |        0 |                      1 |
 | sliding_window         |        1 |                      1 |
