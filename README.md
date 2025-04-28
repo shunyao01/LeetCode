@@ -27,7 +27,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | trees                  |        0 |                      1 |
 | graphs                 |        3 |                      1 |
 | dynamic_programming    |        0 |                      1 |
-| two_pointers           |        1 |                      1 |
+| two_pointers           |        2 |                      1 |
 | sliding_window         |        1 |                      1 |
 | recursion              |        0 |                      1 |
 | backtracking           |        0 |                      1 |
