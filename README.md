@@ -23,7 +23,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 |------------------------|---------:|-----------------------:|
 | arrays                 |        5 |                      3 |
 | strings                |        4 |                      1 |
-| linked_lists           |        2 |                      1 |
+| linked_lists           |        4 |                      3 |
 | trees                  |        0 |                      1 |
 | graphs                 |        3 |                      1 |
 | dynamic_programming    |        1 |                      1 |
