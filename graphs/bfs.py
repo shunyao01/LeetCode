@@ -23,18 +23,17 @@ class Graph:
         Deque popleft
         """
         visited = set() # visit
-        stack = deque([node]) # explore
+        queue = deque([node]) # explore
         res = []
 
-        while stack:
-            node = stack.popleft()
-            if node not in visited:
-                visited.add(node)
-                res.append(node.value)
+        while queue:
+            node = queue.popleft()
+            res.append(node.value)
 
-                for neighbor in node.neighbors:
-                    if neighbor not in visited:
-                        stack.append(neighbor)
+            for neighbor in node.neighbors:
+                if neighbor not in visited:
+                    visited.add(node)
+                    queue.append(neighbor)
 
         return res
 
