@@ -1,4 +1,5 @@
-from typing import LIst
+from typing import List
+import math
 
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
@@ -41,4 +42,3 @@ class Solution:
                 integer_stack.append(temp)
                     
         return integer_stack[0]
-

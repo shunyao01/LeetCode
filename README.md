@@ -31,6 +31,6 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | recursion           |        0 |                1 |
 | sliding_window      |        1 |                1 |
 | strings             |        5 |                1 |
-| system_design       |        0 |                0 |
+| system_design       |        1 |                0 |
 | trees               |        1 |                1 |
 | two_pointers        |        2 |                1 |
