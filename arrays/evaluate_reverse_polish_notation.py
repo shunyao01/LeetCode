@@ -1,5 +1,4 @@
-from typing import List
-import math 
+from typing import LIst
 
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
@@ -16,31 +15,30 @@ class Solution:
         Space Complexity: O(n)
 
         Trick: FIFO stack for interger, immediate resolve operator
+               Result is left or right
         """
-        if not tokens: return 
-        if len(tokens) == 1: return int(tokens[0])
-
-        res = None
         integer_stack = []
 
         for s in tokens:
             
             if s.lstrip('-').isdigit(): # add digits
-                integer_stack.append(s)
+                integer_stack.append(int(s))
             
             else: # resolve operator
 
-                if res is None: # first time, get the right, res = l # r
-                    res = int(integer_stack.pop())
-                n = int(integer_stack.pop())
+                r = integer_stack.pop()
+                l = integer_stack.pop()
                 
                 if s == '+':
-                    res += n
+                    temp = l + r
                 elif s == '-':
-                    res = n - res # left - right
+                    temp = l - r # left - right
                 elif s == '*':
-                    res *= n
+                    temp = l * r
                 elif s == '/':
-                    res = math.trunc(n / res) # left / right, // is math.floor, use trunc
+                    temp = math.trunc(l / r) # left / right, // is math.floor, use trunc
+                
+                integer_stack.append(temp)
                     
-        return res
+        return integer_stack[0]
+
