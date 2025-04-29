@@ -22,8 +22,8 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | Topic                  | # Solved | Confidence Level       |
 |------------------------|---------:|-----------------------:|
 | arrays                 |        8 |                      3 |
-| strings                |        4 |                      1 |
-| linked_lists           |        4 |                      3 |
+| strings                |        5 |                      1 |
+| linked_lists           |        5 |                      3 |
 | trees                  |        0 |                      1 |
 | graphs                 |        4 |                      1 |
 | dynamic_programming    |        1 |                      1 |
