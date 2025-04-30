@@ -23,7 +23,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 
 | Topic               | # Solved | Confidence Level |
 |---------------------|---------:|-----------------:|
-| arrays              |        9 |                3 |
+| arrays              |        10 |                3 |
 | backtracking        |        1 |                1 |
 | dynamic_programming |        1 |                1 |
 | graphs              |        4 |                1 |
