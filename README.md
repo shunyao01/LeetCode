@@ -30,7 +30,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 
 | Topic               | # Solved | Confidence Level (0–5) |
 |---------------------|----------|------------------------|
-| arrays & hash       | 7        | 3                      |
+| arrays & hash       | 8        | 3                      |
 | backtracking        | 2        | 1                      |
 | binary_search       | 4        | 3                      |
 | dynamic_programming | 1        | 1                      |
