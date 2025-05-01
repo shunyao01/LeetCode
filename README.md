@@ -32,7 +32,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 |---------------------|----------|------------------------|
 | arrays & hash       | 6        | 3                      |
 | backtracking        | 2        | 1                      |
-| binary_search       | 3        | 3                      |
+| binary_search       | 4        | 3                      |
 | dynamic_programming | 1        | 1                      |
 | graphs              | 4        | 3                      |
 | linked_lists        | 6        | 3                      |
