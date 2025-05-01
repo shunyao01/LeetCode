@@ -14,7 +14,7 @@ class Solution:
         Time Complexity: O(n)
         Space Complexity: O(n)
 
-        Trick: monotonic increasing stack, increase from top to bottom of the stack
+        Trick: monotonic decreasing stack, decrease from bottom to top of the stack
         """
         n = len(temperatures)
         max_stack = []
