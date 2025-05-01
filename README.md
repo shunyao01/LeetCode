@@ -42,6 +42,6 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | strings             | 4        | 4                      |
 | system_design       | 1        | 0                      |
 | trees               | 1        | 1                      |
-| two_pointers        | 4        | 3                      |
+| two_pointers        | 5        | 3                      |
 
 ---
