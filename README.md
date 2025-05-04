@@ -35,7 +35,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | binary_search       | 4        | 3                      |
 | dynamic_programming | 1        | 1                      |
 | graphs              | 4        | 3                      |
-| linked_lists        | 6        | 3                      |
+| linked_lists        | 7        | 3                      |
 | recursion           | 0        | 1                      |
 | sliding_window      | 1        | 1                      |
 | stack               | 5        | 3                      |
