@@ -8,9 +8,10 @@ A structured way to tackle coding interview problems by topic. Track your practi
 
 ### Topics:
 
-- **arrays**: Array problems using hashmaps or hashsets for quick lookups, counting, or tracking elements.
+- **arrays & hash**: Problems combining array traversal with hashmap-based lookups or frequency tracking.
 - **backtracking**: Algorithms that explore all possible configurations using recursion and decision trees (e.g., permutations, N-Queens).
 - **binary_search**: Problems that apply binary search on arrays or search space (e.g., rotated arrays, min/max value search).
+- **bit_manipulation**: Bit Manipulation uses bitwise operators to perform operations directly on binary data for efficient problem-solving.
 - **dynamic_programming**: Problems requiring overlapping subproblems and optimal substructure, often solved using memoization or tabulation.
 - **graphs**: Graph representations and traversal techniques such as DFS, BFS, topological sort, and connected components.
 - **linked_lists**: Linked list construction, reversal, cycle detection, and pointer manipulation problems.
@@ -22,7 +23,6 @@ A structured way to tackle coding interview problems by topic. Track your practi
 - **system_design**: High-level design notes for large-scale systems and interview preparation (non-coding).
 - **trees**: Tree traversals (inorder, preorder, postorder), construction, depth calculations, and binary search trees.
 - **two_pointers**: Problems solved using two indices moving toward or away from each other, useful in sorted arrays or strings.
-- **arrays & hash**: Problems combining array traversal with hashmap-based lookups or frequency tracking.
 
 ---
 
@@ -33,6 +33,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | arrays & hash       | 9        | 3                      |
 | backtracking        | 2        | 1                      |
 | binary_search       | 4        | 3                      |
+| bit manipulation    | 1        | 1                      |
 | dynamic_programming | 1        | 1                      |
 | graphs              | 4        | 3                      |
 | linked_lists        | 7        | 3                      |
