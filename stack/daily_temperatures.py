@@ -21,7 +21,7 @@ class Solution:
         res = [0] * n
 
         # loop thorugh and find warmer with stack
-        for i in range(n):
+        for i in range(n):w
 
             while max_stack and temperatures[i] > temperatures[max_stack[-1]]: # found warmer
                 left = max_stack.pop()
