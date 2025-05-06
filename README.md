@@ -15,6 +15,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 - **dynamic_programming**: Problems requiring overlapping subproblems and optimal substructure, often solved using memoization or tabulation.
 - **graphs**: Graph representations and traversal techniques such as DFS, BFS, topological sort, and connected components.
 - **linked_lists**: Linked list construction, reversal, cycle detection, and pointer manipulation problems.
+- **math**: Problems involving mathematical reasoning, number theory, arithmetic operations, modulo, combinatorics, and properties of numbers.
 - **patterns**: Documentation and breakdown of recurring techniques like two pointers, sliding window, fast & slow pointer, etc.
 - **recursion**: Problems where the solution involves calling the function on smaller inputs (includes some tree and backtracking problems).
 - **sliding_window**: Problems that maintain a window over a subset of data (e.g., max/min in subarrays, longest substring).
@@ -36,7 +37,8 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | bit manipulation    | 1        | 1                      |
 | dynamic_programming | 1        | 1                      |
 | graphs              | 5        | 3                      |
-| linked_lists        | 10        | 4                      |
+| linked_lists        | 10       | 4                      |
+| math                | 1        | 1                      |
 | recursion           | 0        | 1                      |
 | sliding_window      | 1        | 1                      |
 | stack               | 6        | 3                      |
