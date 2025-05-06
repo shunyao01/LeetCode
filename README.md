@@ -39,7 +39,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | linked_lists        | 7        | 3                      |
 | recursion           | 0        | 1                      |
 | sliding_window      | 1        | 1                      |
-| stack               | 5        | 3                      |
+| stack               | 6        | 3                      |
 | strings             | 4        | 4                      |
 | system_design       | 1        | 0                      |
 | trees               | 1        | 1                      |
