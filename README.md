@@ -37,7 +37,7 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | bit manipulation    | 1        | 1                      |
 | dynamic_programming | 1        | 1                      |
 | graphs              | 5        | 3                      |
-| linked_lists        | 10       | 4                      |
+| linked_lists        | 11       | 4                      |
 | math                | 1        | 1                      |
 | recursion           | 0        | 1                      |
 | sliding_window      | 1        | 1                      |
@@ -46,5 +46,5 @@ A structured way to tackle coding interview problems by topic. Track your practi
 | system_design       | 1        | 0                      |
 | trees               | 1        | 1                      |
 | two_pointers        | 5        | 3                      |
-
+| **TOTAL**           | 51                                |
 ---

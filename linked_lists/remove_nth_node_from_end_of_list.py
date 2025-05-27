@@ -40,4 +40,4 @@ class Solution:
         
         slow.next = slow.next.next 
 
-        return dummy.next
+        return dummy.nextw
