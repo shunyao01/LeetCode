@@ -26,7 +26,7 @@ class Solution:
             if slow == fast:
                 break
         
-        # find entry point p=x, distance between start-cycle and cycle-intersect same
+        # find entry point p=x, distance: start to cycle entry = cycle entry to meeting point 
         slow = nums[0]
         while slow != fast:
             slow = nums[slow]
